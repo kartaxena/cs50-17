@@ -1,0 +1,12 @@
+1.  stdint.h library declare intger types and arrays
+2.  TODO
+3.  BYTE = 1 byte, DWORD = 4 bytes, LONG = 4 bytes, WORD = 2 bytes.
+4.  The first two bytes determine the type of file (bfType) and have values 0x4d42
+5.  bfSize is the size of the entire file in bytes, and biSize is the size in bytes header structure
+6.  Negative biHeight file that start in the upper left corner
+7.  biBitCount
+8.  This happens when you can not open the file
+9.  This argument sets the number of elements that need to be read
+10. The padding would be 3
+11. Fseek function moves the pointer position in the stream.
+12. Indicates the current position of the file pointer
